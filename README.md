@@ -1,19 +1,19 @@
 # Windows Network Troubleshooting
 
-A collection of PowerShell and Python scripts built to practice and automate common Windows network troubleshooting tasks.
-
-These scripts focus on identifying connectivity problems at the endpoint level by checking network adapters, IPv4 configuration, DHCP, DNS resolution, ICMP connectivity, TCP ports, and SMB resources.
+PowerShell and Python scripts for troubleshooting common Windows networking issues.
 
 ## Skills Demonstrated
 
 - PowerShell
+- TCP/IP
+- DNS
+- DHCP
+- SMB
 - Windows networking
-- TCP/IP troubleshooting
-- DNS troubleshooting
-- DHCP troubleshooting
-- APIPA detection
-- ICMP connectivity testing
-- TCP port testing
-- SMB connectivity
-- Windows network adapter management
-- Basic Python networking automation
+
+## Scripts
+
+- `NetworkDiagnostic.ps1` - Checks IP configuration, DNS, connectivity, TCP 445, and SMB access.
+- `NetworkTroubleshooting.ps1` - Performs common network troubleshooting and remediation tasks.
+- `dhcp.ps1` - Checks DHCP Client service status.
+- `TestConnection.py` - Basic Python connectivity testing.
